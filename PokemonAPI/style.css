@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #eff3ff;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://mcdn.wallpapersafari.com/335/88/49/WMnoEF.jpg");
+  backdrop-filter: blur(3px);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  background-color: #eff3ff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 0px 5px 5px 0px black;
+  position: relative;
+  transition: width 2s;
+
+  > .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+}
+
+/* IMAGE STYLE */
+
+img {
+  width: 150px;
+  min-width: 50px;
+  height: 100px;
+  margin-left: 30px;
+}
+
+h2 {
+  margin-left: 20px;
+  text-align: center;
+  background-color: yellow;
+  border-radius: 5px;
+  width: 200px;
+}
+
+h3 {
+  text-align: center;
+  box-shadow: 1px #484e61;
+}
+
+.card:hover {
+  background-color: #484e61;
+}
+
+/* BUTTON Layout */
+
+#button {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  display: inline;
+  font-size: large;
+  color: black;
+}
+
+button:hover {
+  background-color: violet;
+}
