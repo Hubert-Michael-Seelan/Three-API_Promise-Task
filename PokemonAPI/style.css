@@ -74,6 +74,7 @@ h3 {
   display: inline;
   font-size: large;
   color: black;
+  cursor: pointer;
 }
 
 button:hover {
